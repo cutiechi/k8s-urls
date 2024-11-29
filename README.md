@@ -13,6 +13,21 @@ A command-line tool written in Rust for discovering and displaying Kubernetes se
 
 ## Installation
 
+### Download Pre-built Binary
+
+You can download the pre-built binary for your platform from the [GitHub Releases](https://github.com/cutiechi/k8s-urls/releases) page. We provide binaries for:
+
+- Linux (x86_64, ARM64)
+- macOS (Intel, Apple Silicon)
+
+After downloading, extract the archive and move the binary to a directory in your PATH:
+
+```bash
+# Example for macOS ARM64
+tar xzf k8s-urls-aarch64-apple-darwin.tar.gz
+sudo mv k8s-urls /usr/local/bin/
+```
+
 ### From Source
 
 Ensure you have Rust installed ([rustup](https://rustup.rs/)), then:
